@@ -1,10 +1,13 @@
 
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+        Animal tortuga=new Animal("Emilia","tortuga golfina",25);
+        Animal perro=new Animal("Bruno","Husky",3);
+        Animal hamster=new Animal("Dori","manchado",1);
+        Animal gato=new Animal("Ahri","Siames",2);
+        gato.comer();
+        perro.dormir();
+        hamster.hibernar();
+        tortuga.comer();
     }
 }
